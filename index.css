@@ -379,3 +379,7 @@ p{
     color: white;
     font-style: italic;
 }
+
+h3#pname{
+    color: #9370db;
+}
