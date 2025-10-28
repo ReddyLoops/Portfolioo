@@ -361,6 +361,21 @@ li{
   }
 }
 
-/* <video autoplay muted loop class="h-100 w-96 lg:h-100 lg:w-96 object-cover ml-4 mt-4 lg:mt-0 transition-transform transform hover:scale-150">
-              <source src="https://res.cloudinary.com/dyacodwnx/video/upload/v1717215357/ze78plyekp3dg21puuwx.mp4" type="video/mp4">
-            </video> */
+.contact h1{
+    padding-top: 10rem;
+    font-size: 5rem;
+}
+.contact h2{
+    padding-top: 5rem;
+    font-size: 3rem;
+    color: white;
+}
+.contact li{
+    font-size: 3rem;
+    color: white;
+}
+p{
+    font-size: 3rem;
+    color: white;
+    font-style: italic;
+}
