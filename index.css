@@ -43,6 +43,7 @@ header{
 
 .logo:hover{
     transform: scale(1.1);
+    color: #9370db;
 }
 
 nav a{
@@ -50,13 +51,14 @@ nav a{
     color: white;
     margin-left: 4rem;
     font-weight: 500;
-    transition: 0.3s ease;
+    transition: 0.5s ease;
     border-bottom: 3px solid transparent;
 }
 
 nav a:hover, nav a:active{
-    color: black;
-    border-bottom: 3px solid black;
+    color: #9370db;
+    border-bottom: 3px solid #9370db;
+    transform: scale(1.1);
 }
 
 @media(max-width:995px){
@@ -110,7 +112,7 @@ section{
 }
 
 span{
-    color: white;
+    color: #9370db;
 }
 .red .content h3{
     font-size: 4rem;
@@ -282,3 +284,84 @@ li{
     font-size: 1rem;
 }
 }
+
+.project h1 {
+    padding-top: 10rem;
+    color: white;
+    font-size: 3.5rem;
+}
+.project {
+  padding: 40px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.project-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  gap: 20px;
+}
+
+.project-content h3 {
+    padding-top: 10rem;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.project-content h3#problem {
+    padding-top: 10rem;
+    color: white;
+    font-size: 1.5rem;
+}
+.project h2{
+    padding-top: 10rem;
+    color: white;
+    font-size: 3.5rem;
+}
+
+.repl {
+  flex: 1 1 300px;
+  width: 700px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.repl:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.project-content img{
+    width: 500px;
+  height: 500px;
+     flex: 1 1 300px;
+ border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+@media (max-width: 768px) {
+  .project{
+    margin-left: 0;
+  }
+  .project-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .repl {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* <video autoplay muted loop class="h-100 w-96 lg:h-100 lg:w-96 object-cover ml-4 mt-4 lg:mt-0 transition-transform transform hover:scale-150">
+              <source src="https://res.cloudinary.com/dyacodwnx/video/upload/v1717215357/ze78plyekp3dg21puuwx.mp4" type="video/mp4">
+            </video> */
